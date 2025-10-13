@@ -1,16 +1,27 @@
-# React + Vite
+MindSpace – Your Personal Mental Wellness Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MindSpace is a smart, interactive dashboard designed to help users track their moods, habits, and mental well-being through data-driven insights. It combines mindfulness, self-reflection, and progress visualization into one beautiful, intuitive interface.
 
-Currently, two official plugins are available:
+🌟 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🪄 Mood Tracking: Log daily moods and visualize emotional trends with interactive charts.
 
-## React Compiler
+📅 Habit Progress: Build consistency with habit tracking and progress visualization.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 Stats Overview: Gain insight into your overall mental wellness using real-time analytics.
 
-## Expanding the ESLint configuration
+🕒 Time Range Filters: View your growth over the week, month, or quarter with a simple toggle.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Realtime Firestore Sync: All data updates instantly, keeping your dashboard fresh and accurate.
+
+💫 Modern UI: Sleek gradient design built with Tailwind CSS and React — optimized for mobile and desktop.
+
+☁️ Firebase Integration: Secure data storage, live updates, and authentication powered by Firebase.
+
+🧩 Tech Stack
+Technology	Purpose
+React (Vite)	Frontend framework for building the dashboard
+Firebase Firestore	Real-time database for storing moods, habits, and stats
+Tailwind CSS	Utility-first styling for a clean, responsive UI
+Chart.js / Recharts	Data visualization for mood and habit trends
+Framer Motion	Smooth animations and transitions
